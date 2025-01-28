@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    char st[100];
+    char st[20];
     int age;
-    char hob[100];
+    char hob[20];
 
     scanf("%s", &st);
     scanf("%d", &age);
