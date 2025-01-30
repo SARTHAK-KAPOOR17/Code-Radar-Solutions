@@ -5,11 +5,9 @@ int main(){
     scanf("%d %d", &num1, &num2);
 
     if(num1 > num2){
-        printf(num1, num2);
-    } else if(num2 > num1){
-        printf(num2, num1);
-    } else{
-        printf(num1, num2);
+        printf(num1);
+    } else {
+        printf(num2);
     }
     return 0;
 }
