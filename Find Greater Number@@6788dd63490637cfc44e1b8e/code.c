@@ -6,7 +6,7 @@ int main(){
     if((num1 > num2) && (num1 < num2)){
         printf("%d\n", num1);
     } else{
-        printf("5d\n", num2);
+        printf("%d\n", num2);
     }
     return 0;
 }
