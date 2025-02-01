@@ -5,15 +5,15 @@ int main(){
     scanf("%d", &a);
 
     if(a >= 90){
-        printf("\n A");
+        printf("A");
     } else if((a >= 80) && (a < 90)){
-        printf("\n B");
+        printf("B");
     } else if((a >= 70) && (a < 80)){
-        printf("\n C");
+        printf("C");
     } else if((a >= 60) && (a < 70)){
-        printf("\n D");
+        printf("D");
     } else{
-        printf("\n F");
+        printf("F");
     }
     return 0;
 }
