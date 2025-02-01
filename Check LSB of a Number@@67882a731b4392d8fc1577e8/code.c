@@ -3,9 +3,9 @@ int main(){
     int num;
 
     if(num & 1){
-        printf("Set");
-    } else{
         printf("Not Set");
+    } else{
+        printf("Set");
     }
     return 0;
 }
