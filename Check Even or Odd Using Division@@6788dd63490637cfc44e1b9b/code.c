@@ -7,7 +7,7 @@ int main(){
     if(a / 2 == 0){
         printf("Even");
     }else{
-        printf("Even");
+        printf("Odd");
     }
     return 0;    
 }
