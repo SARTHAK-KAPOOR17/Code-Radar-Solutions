@@ -5,9 +5,9 @@ int main(){
     scanf("%c", &ch);
     
     if(isupper(ch)){
-        printf("Uppercase");
+        printf("%c\nUppercase");
     } else{
-        printf("Lowercase");
+        printf("%c\nLowercase");
     }
     return 0;
 }
