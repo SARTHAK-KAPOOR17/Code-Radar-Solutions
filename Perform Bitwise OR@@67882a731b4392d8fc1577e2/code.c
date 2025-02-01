@@ -3,8 +3,8 @@ int main(){
     int a, b;
     scanf("%d %d", &a, &b);
 
-    int result = a | b;
+    
 
-    print(result);
+    print(a | b);
     return 0;
 }
