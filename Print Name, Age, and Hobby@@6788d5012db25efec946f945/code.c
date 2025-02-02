@@ -5,8 +5,7 @@ int main(){
     int age;
     char hob[200];
 
-    scanf("%s", &st);
-    scanf("%d", &age);
+    scanf("%S %d", &st, &age);
     scanf("%st", &hob);
 
     print("Name: %s\n", st);
