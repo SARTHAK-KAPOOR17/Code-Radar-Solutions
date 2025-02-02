@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main(){
-    int temp;
+    int temprature;
 
-    scanf("%d", &temp);
+    scanf("%d", &temprature);
 
-    if(temp <= 0){
-        pirntf("Freezing");
+    if(temprature <= 0){
+        printf("Freezing");
     } else{
-        pirntf("Above Freezing");
-    }
+        printf("Above Freezing");
+    } 
     return 0;
 }
