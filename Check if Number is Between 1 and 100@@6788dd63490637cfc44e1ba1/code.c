@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int main(){
     int range;
 
@@ -7,8 +6,10 @@ int main(){
 
     if(range <= 0){
         printf("Out of Range");
-    } else if((range >= 1) && (range == 101)){
+    } else if((range >= 1) && (range == 100)){
         printf("In Range");
+    } else{
+        printf("Out of Range");
     }
     return 0;
 }
