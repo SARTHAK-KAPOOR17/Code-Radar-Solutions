@@ -2,12 +2,14 @@
 int main(){
     char ch;
 
-    scanf("%C", &ch);
-    
-    if(isupper(ch)){
-        printf("%c\nUppercase");
+    scanf("%c", &ch);
+
+    if((ch >= 'A') && (ch <= 'Z')){
+        printf("Uppercase");
+    } else if((ch >= 'a') && (ch <= 'z')){
+        printf("Lowercase");
     } else{
-        printf("%c\nLowercase");
+        printf("Not an alphabet");
     }
     return 0;
 }
