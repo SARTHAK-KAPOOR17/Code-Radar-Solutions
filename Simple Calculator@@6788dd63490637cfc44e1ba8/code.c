@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main(){
-    int a, b;
+    int a, b, c;
 
-    scanf("%d %d", &a, &b);
+    scanf("%d %d %d", &a, &b, &c);
 
-    if('+'){
+    if(c == '+'){
         printf(a + b);
-    } else if('-'){
+    } else if(c == '-'){
         printf(a - b);
-    } else if('*'){
+    } else if(c == '*'){
         printf(a * b);
-    } else if('/'){
+    } else if(c == '/'){
         printf(a / b);
     }
     return 0;
