@@ -2,7 +2,7 @@
 int main(){
     int num;
 
-    scanf("5D", &num);
+    scanf("%d", &num);
 
     if(num > 0){
         printf("Positive");
