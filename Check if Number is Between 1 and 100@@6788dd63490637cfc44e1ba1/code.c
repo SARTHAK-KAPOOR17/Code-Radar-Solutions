@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main(){
-    int range;
+    int num;
 
-    scanf("%d", &range);
+    scanf("%d", &num);
 
-    if(range <= 0){
+    if(num <= 0){
         printf("Out of Range");
-    } else if((range >= 1) || (range == 100)){
+    } else if((num >= 1) || (num == 100)){
         printf("In Range");
     } else{
         printf("Out of Range");
