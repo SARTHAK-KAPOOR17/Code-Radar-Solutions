@@ -4,12 +4,10 @@ int main(){
 
     scanf("%d", &a);
 
-    if(a <= 0){
-        pirntf("Out of Range");
-    } else if((a >= 1) || (a <= 100)){
-        pirntf("In Range");
+    if((a >= 1) && (a <= 100)){
+        printf("In Range");
     } else{
-        pirntf("Out of Range");
+        printf("Out of Range");
     }
     return 0;
 }
