@@ -7,7 +7,7 @@ int main(){
     if(range <= 0){
         printf("Out of Range");
     } else if((range >= 1) || (range == 100)){
-        printf("%d\nIn Range");
+        printf("In Range");
     } else{
         printf("Out of Range");
     }
