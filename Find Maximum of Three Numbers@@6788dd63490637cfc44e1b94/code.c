@@ -4,12 +4,12 @@ int main(){
 
     scanf("%d %d %d", &a, &b, &c);
 
-    if(a > b){
+    if((a > b) && (a > c)){
         printf(a);
-    } else if(b > c){
+    } else if((b > a) && (b > c)){
         printf(b);
-    } else if(c > a){
-        printf(c);
+    } else{
+        printf(c)
     }
     return 0;
 }
