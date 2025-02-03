@@ -3,8 +3,8 @@ int main(){
     int a;
     scanf("%d", &a);
 
-    for(a = 0; a < 2, a--){
-        printf("*");
+    for(int a ; a < 1, a = a - 1 ){
+        printf("*\n");
     }
     return 0;
 }
