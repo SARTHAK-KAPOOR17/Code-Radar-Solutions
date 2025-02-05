@@ -1,9 +1,8 @@
 #include<stdio.h>
 int main(){
-    int a;
-    scanf("%d", &a);
+    int n;
 
-    for(int a ; a <= 2, a = a - 1){
+    for(i = n; i <= 1, i--){
         printf("*\n");
     }
     return 0;
