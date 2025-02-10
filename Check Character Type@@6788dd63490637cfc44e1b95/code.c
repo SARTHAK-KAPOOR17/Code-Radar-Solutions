@@ -2,16 +2,55 @@
 int main(){
     char ch;
 
-    scanf("%c", &ch);
+    switch(ch){
+        case 'a':
+            printf("Vowel");
+        break;
+        
+        case 'A':
+            printf("Vowel");
+        break;
 
-    if((ch == 'a') || (ch == 'e') || (ch == 'i') || (ch == 'o') || (ch == 'u')){
-        printf("Vowel\n");
-    } else if((ch > 'a') && (ch <= 'z')){
-        printf("Consonant\n");
-    } else if((ch >= 0) && (ch <= 9)){
-        printf("Digit\n");
-    } else{
-        printf("Special Character\n");
+        case 'e':
+            printf("Vowel");
+        break;
+
+        case 'E':
+            printf("Vowel");
+        break;
+
+        case 'i':
+            printf("Vowel");
+        break;
+
+        case 'I':
+            printf("Vowel");
+        break;
+
+        case 'o':
+            printf("Vowel");
+        break;
+
+        case 'O':
+            printf("Vowel");
+        break;
+
+        case 'u':
+            printf("Vowel");
+        break;
+
+        case 'U':
+            printf("Vowel");
+        break;
+
+        default:
+            printf("Consonant")
+
+        if(ch >= 0 && ch <= 9){
+            printf("Digit");
+        } else {
+            printf("Special Character");
+        }
     }
     return 0;
 }
