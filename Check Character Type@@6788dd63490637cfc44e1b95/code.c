@@ -9,11 +9,11 @@ int main(){
             printf("Vowel");
         } if((ch >= 'a') && (ch <= 'z')){
             if((ch >= 'A') && (ch <= 'Z')){
-                printf("Consonant\n");
+                printf("Consonant");
             } else if((ch >= 0) && (ch <= 9)){
-                printf("Digit\n");
+                printf("Digit");
             } else{
-                printf("Special Character\n");
+                printf("Special Character");
             }
         }
     }
