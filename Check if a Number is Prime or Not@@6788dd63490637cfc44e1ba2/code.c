@@ -1,24 +1,24 @@
-#include <stdio.h>
+#include<stdio.h>
+int isPrime(int num){
+    if(num < 2) return 0;
 
-int isPrime(int num) {
-    if (num < 2) return 0;  // Numbers less than 2 are not prime
-
-    for (int i = 2; i * i <= num; i++) {  // Check up to sqrt(num)
-        if (num % i == 0) 
-            return 0;  // Found a divisor, not prime
+    for(int i = 0; i < num; i++){
+        if(num % 2 == 0){
+            return 0;
+        }
+        return 1;
     }
-    return 1;  // Prime number
 }
 
-int main() {
+int main(){
     int num;
     scanf("%d", &num);
 
-    if (isPrime(num))
-        printf("%d is a prime number.\n", num);
-    else
-        printf("%d is not a prime number.\n", num);
-
+    if(isPrime(num)){
+        printf("Prime");
+    } else{
+        printf("Not Prime");
+    }
     return 0;
 }
 
