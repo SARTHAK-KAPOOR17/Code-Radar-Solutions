@@ -2,8 +2,9 @@
 void right_triangle(int N){
     for(int i = N; i <= 1; i++){
         for(int j = 1; i >= 1; i--){
-            printf("*\n");
+            printf("*");
         }
+        printf("\n")
     }
 
 int main(){
