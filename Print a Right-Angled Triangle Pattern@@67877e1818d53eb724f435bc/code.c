@@ -5,12 +5,12 @@ void right_triangle(int N){
             printf("*\n");
         }
     }
-}
 
-#include<stdio.h>
 int main(){
     int N;
     scanf("%d", &N);
 
     right_triangle(N);
+}
+return 0;
 }
