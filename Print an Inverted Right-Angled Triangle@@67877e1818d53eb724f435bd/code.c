@@ -1,11 +1,19 @@
-#include<stdio.h>
-int main(){
-    int N, i, j;
-    for(i = N; i > 0; i--){
-        for(j = 0; j < 1; j++){
-            printf("*");
+#include <stdio.h>
+
+void printInvertedTriangle(int N) {
+    for (int i = N; i >= 1; i--) {  // Outer loop for rows
+        for (int j = 1; j <= i; j++) {  // Inner loop for columns
+            printf("* ");
         }
-        printf("\n");
+        printf("\n");  // Move to the next line
     }
+}
+
+int main() {
+    int N;
+    scanf("%d", &N);
+
+    printInvertedTriangle(N);
+
     return 0;
 }
