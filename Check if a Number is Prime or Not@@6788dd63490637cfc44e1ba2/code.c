@@ -8,7 +8,7 @@ int isPrime(int num){
         }
         return 1;
     }
-}
+
 
 int main(){
     int num;
@@ -21,4 +21,4 @@ int main(){
     
     return 0;
 }
-
+}
