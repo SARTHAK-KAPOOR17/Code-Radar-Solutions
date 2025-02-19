@@ -11,6 +11,8 @@ int main(){
             printf("* ");
             j++;
         }
+        printf("\n");
         i++;
     }
+    return 0;
 }
