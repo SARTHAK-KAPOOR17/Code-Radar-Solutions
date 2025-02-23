@@ -5,7 +5,7 @@ int main(){
     scanf("%d", &n);
 
     for(int i = 1; i < n; i++){ // No of rows
-        for(int j = 1; j < i - 1; j++){ // No of coloumns
+        for(int j = 1; j < n; j++){ // No of coloumns
             printf("%d ", j);
             // sum = sum + 1;
         }
