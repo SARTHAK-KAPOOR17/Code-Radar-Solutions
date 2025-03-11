@@ -1,15 +1,18 @@
-#include<stdio.h>
-int main(){
-    int rows, num = 0;
+#include <stdio.h>
 
+int main() {
+    int rows;
     scanf("%d", &rows);
 
-    for(int i = 1; i <= rows; i++){
-        for(int j = 0; j <= i + 1; j++){
-            printf("%d ", num);
-            num++;
+    for (int i = 1; i <= rows; i++) {
+        int value = (i % 2 == 0) ? 0 : 1;
+
+        for (int j = 1; j <= i; j++) {
+            printf("%d ", value);
+            value = 1 - value;
         }
         printf("\n");
     }
+
     return 0;
 }
