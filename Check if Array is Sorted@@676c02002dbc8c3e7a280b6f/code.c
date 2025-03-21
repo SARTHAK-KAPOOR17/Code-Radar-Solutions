@@ -16,7 +16,7 @@ int main(){
     int arr[n];
 
     for(int i = 0; i < n; i++){
-        printf("%d \n", &arr[i]);
+        printf("%d ", &arr[i]);
     }
 
     if(IsSorted(arr, n)) {
