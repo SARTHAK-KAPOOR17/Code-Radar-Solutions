@@ -21,20 +21,18 @@ int main() {
     }
 
     scanf("%d", &k);
-    
-    k = k % n; // To handle cases where k > n
+    k = k % n; // Handle cases where k > n
 
-    // Step 1: Reverse the whole array
+    // Reverse the entire array
     reverse(arr, 0, n - 1);
 
-    // Step 2: Reverse the first k elements
+    // Reverse first k elements
     reverse(arr, 0, k - 1);
 
-    // Step 3: Reverse the remaining elements
+    // Reverse the remaining n - k elements
     reverse(arr, k, n - 1);
 
-    // Output result
-    printf("%d\n", k);
+    // Output the rotated array
     for(int i = 0; i < n; i++) {
         printf("%d \n", arr[i]);
     }
