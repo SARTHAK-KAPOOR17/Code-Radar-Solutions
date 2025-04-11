@@ -22,7 +22,7 @@ int main(){
 
     if(isIncreasing || isDecreasing){
         printf("YES");
-    } esle{
+    } else{
         printf("NO");
     }
     return 0;
