@@ -2,12 +2,10 @@
 
 int main() {
     int n;
-    // printf("Enter size of array: ");
     scanf("%d", &n);
 
     int arr[n], freq[n];
 
-    // printf("Enter %d elements:\n", n);
     for(int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
         freq[i] = -1;  // Initialize all frequencies as -1
@@ -26,10 +24,9 @@ int main() {
         }
     }
 
-    // printf("\nFrequency of each element:\n");
     for(int i = 0; i < n; i++) {
         if(freq[i] != 0) {
-            printf("%d \n", arr[i], freq[i]);
+            printf("%d occurs %d times\n", arr[i], freq[i]);
         }
     }
 
