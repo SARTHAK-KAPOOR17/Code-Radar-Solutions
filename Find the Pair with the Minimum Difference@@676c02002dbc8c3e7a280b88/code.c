@@ -10,7 +10,7 @@ int main() {
     scanf("%d", &n);
 
     if(n < 2) {
-        printf("Not enough elements to form a pair.\n");
+        // printf("Not enough elements to form a pair.\n");
         return 0;
     }
 
