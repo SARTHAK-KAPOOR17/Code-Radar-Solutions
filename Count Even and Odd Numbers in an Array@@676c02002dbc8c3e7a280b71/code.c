@@ -10,13 +10,13 @@ int main(){
     }
 
 
-    int even, odd;
+    int even = 0, odd = 0;
     even = odd = arr[0];
     for(int i = 0; i < n; i++){
         if(arr[0] % 2 == 0){
-            even = arr[0];
+            even++;
         } else{
-            arr[0] = odd;
+             odd++;
         }
     }
 
