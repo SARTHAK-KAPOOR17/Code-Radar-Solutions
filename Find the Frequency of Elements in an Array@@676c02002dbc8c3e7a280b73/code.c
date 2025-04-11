@@ -17,7 +17,7 @@ int main() {
             for(int j = i + 1; j < n; j++) {
                 if(arr[i] == arr[j]) {
                     count++;
-                    freq[j] = 0; // Mark duplicate elements
+                    freq[j] = 0; 
                 }
             }
             freq[i] = count;
@@ -26,7 +26,7 @@ int main() {
 
     for(int i = 0; i < n; i++) {
         if(freq[i] != 0) {
-            printf("%d occurs %d times\n", arr[i], freq[i]);
+            printf("%d %d\n", arr[i], freq[i]);
         }
     }
 
