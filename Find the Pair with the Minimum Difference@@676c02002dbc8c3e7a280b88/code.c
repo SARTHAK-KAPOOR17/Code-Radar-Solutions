@@ -8,8 +8,13 @@ int compare(const void* a, const void* b) {
 int main() {
     int n;
     scanf("%d", &n);
-    int arr[n];
 
+    if(n < 2) {
+        printf("Not enough elements to form a pair.\n");
+        return 0;
+    }
+
+    int arr[n];
     for(int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
