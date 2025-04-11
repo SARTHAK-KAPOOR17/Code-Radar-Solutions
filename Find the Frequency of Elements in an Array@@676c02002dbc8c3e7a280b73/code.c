@@ -29,7 +29,7 @@ int main() {
     // printf("\nFrequency of each element:\n");
     for(int i = 0; i < n; i++) {
         if(freq[i] != 0) {
-            printf("%d ", arr[i], freq[i]);
+            printf("%d \n", arr[i], freq[i]);
         }
     }
 
