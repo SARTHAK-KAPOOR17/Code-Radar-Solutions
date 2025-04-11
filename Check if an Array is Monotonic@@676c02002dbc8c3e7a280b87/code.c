@@ -15,7 +15,7 @@ int main(){
     for(int i = 1; i < n; i++){
         if(arr[i] > arr[i - 1]){
             isDecreasing = 0;
-        } else {
+        } else if(arr[i] < arr[i - 1]) {
             isIncreasing = 0;
         }
     }
